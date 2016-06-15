@@ -1,10 +1,7 @@
 function popup(){
-  document.querySelector('.number').innerHTML = chrome.extension.getBackgroundPage().incrementCount();
-  chrome.extension.getBackgroundPage().getViews();
-}
-
-function test(str){
-  document.querySelector('.test').innerHTML = " (Test data: " + str + ")";
+  chrome.runtime.getBackgroundPage(function(backgroundPage){
+    document.querySelector('.number').innerHTML = backgroundPage.incrementCount();
+  });
 }
 
 // Add event listeners once the DOM has fully loaded by listening for the

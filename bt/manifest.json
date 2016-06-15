@@ -1,6 +1,6 @@
 {
   "name": "Brunei Times Table of Contents",
-  "description": "Provides a table of contents",
+  "description": "Provides a table of contents Brunei Time pages e.g. http://bt.com.bn/news/national/",
   "version": "1.0",
   "content_scripts": [
     { "matches": ["http://bt.com.bn/*"], "js": ["content_script.js"] }
