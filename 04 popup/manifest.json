@@ -1,0 +1,10 @@
+{
+  "name": "04 Simple Popup example no state",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Shows an example of a popup HTML page with no state",
+  "browser_action": {
+    "default_title": "Example Popup page w/ no state",
+    "default_popup": "popup.html"
+  }
+}

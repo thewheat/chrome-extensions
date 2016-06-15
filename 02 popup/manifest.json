@@ -1,0 +1,10 @@
+{
+  "name": "02 Simple Popup example CSP error",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Shows an example of a popup HTML page with a CSP error",
+  "browser_action": {
+    "default_title": "Example Popup page w/ CSP error",
+    "default_popup": "popup.html"
+  }
+}

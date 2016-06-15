@@ -1,0 +1,11 @@
+{
+  "name": "07 Simple Popup example with background page calling views",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Shows an example of a popup HTML page with background page calling views",
+  "background": { "scripts": ["background.js"] },
+  "browser_action": {
+    "default_title": "Example Popup page with state via background page calling views",
+    "default_popup": "popup.html"
+  }
+}

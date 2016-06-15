@@ -1,0 +1,16 @@
+{
+  "name": "Intercom - Online records",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Reads the number of online records in the user list.",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "Find Online Count!"
+  }
+}

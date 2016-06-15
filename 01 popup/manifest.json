@@ -1,0 +1,10 @@
+{
+  "name": "01 Simple Popup example",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Shows an example of a popup HTML page",
+  "browser_action": {
+    "default_title": "Example Popup page",
+    "default_popup": "popup.html"
+  }
+}

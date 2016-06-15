@@ -1,0 +1,10 @@
+{
+  "name": "03 Simple Popup example FIXED CSP error",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Shows an example of a popup HTML page with a FIXED CSP error",
+  "browser_action": {
+    "default_title": "Example Popup page w/ FIXED CSP error",
+    "default_popup": "popup.html"
+  }
+}

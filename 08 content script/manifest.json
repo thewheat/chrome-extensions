@@ -1,0 +1,13 @@
+{
+  "name": "08 Simple Content Script - Requires adding libraries used",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Shows an example of a content script. This does not work due to the lack of inclusion of the necessary libraries. This is use to the isolated world that content_scripts run in",
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "Activate Content Script!"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "10 Simple Content Script - Auto inject",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Shows a working example of a content script with auto injecting",
+  "content_scripts": [
+    { "matches": ["http://*.ngrok.io/*"], "js": ["content_script.js"] }
+  ]
+}

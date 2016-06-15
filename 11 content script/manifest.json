@@ -1,0 +1,10 @@
+{
+  "name": "11 Simple Content Script - Communications",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Shows a working example of a content script with communication between content script and ",
+  "background": { "scripts": ["background.js"] },
+  "content_scripts": [
+    { "matches": ["http://*.ngrok.io/*"], "js": ["jquery-3.0.0.min.js", "content_script.js"] }
+  ]
+}
