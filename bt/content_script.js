@@ -3,7 +3,7 @@ function initialiseTOCExtension(){
     return document.querySelectorAll("h2.title");
   }
   function getLocationToInsert(){
-    return document.querySelector("h1");
+    return document.querySelector("#block-system-main");
   }
 
 
@@ -68,7 +68,7 @@ function initialiseTOCExtension(){
     return tocPanel;
   }
   function insertTOCPanelIntoPage(toc, article){
-    article.insertAdjacentHTML('afterend', toc.outerHTML);
+    article.insertAdjacentHTML('beforebegin', toc.outerHTML);
   }
 
   var articles = getArticlesOnPage();
