@@ -1,0 +1,10 @@
+{
+  "name": "11 Simple Context Menu example",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Shows an example context menu",
+  "background": {
+    "scripts": ["menu.js"]
+  },
+  "permissions":["contextMenus"]
+}
